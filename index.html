@@ -21,10 +21,11 @@
             <p class="header__nav_logo">this interior</p>
           </div>
 
-          <div class="header__nav_container_menu_icon">
+          <div class="header__nav_container_menu_icon" id="menu_icon" onclick="Open()">
             <i class="ph ph-list header__menu_icon"></i>
           </div>
-          <div class="header__nav_container_menu">
+          <div class="header__nav_container_menu" id="menu_container">
+            <a href="javascript:void(0)" class="closebtn" onclick="Close()">&times;</a>
             <ul class="header__nav_menu">
               <li><a href="#">Home</a></li>
               <li><a href="#">Collection</a></li>
@@ -89,3 +90,4 @@
     </body>
   </html>
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script src="script.js"></script>

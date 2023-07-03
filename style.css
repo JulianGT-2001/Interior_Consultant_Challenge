@@ -65,6 +65,10 @@ html, body{
     font-weight: 900;
 }
 
+.closebtn {
+    display: none;
+}
+
 main {
     display: flex;
     align-items: center;
@@ -221,7 +225,7 @@ footer {
     .header__nav_container_logo {
         padding: 0px 30px;
         border: 1px solid #fff;
-        display: inline-block;
+        display: block;
         margin-top: 50px;
         margin-left: 80px;
     }
@@ -237,7 +241,39 @@ footer {
     .header__nav_container_menu {
         /* margin-left: 7em; */
         /* margin-right: 50px; */
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.5s;
+        background-color: #181719;
         display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__nav_container_menuresponsive {
+        /* margin-left: 7em; */
+        /* margin-right: 50px; */
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.5s;
+        background-color: #181719;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .header__nav_container_menu_icon {
@@ -245,9 +281,40 @@ footer {
         margin-right: 50px;
     }
 
+    .header__nav_menu {
+        text-decoration: none;
+        list-style-type: none;
+        text-align: center;
+        display: inline-grid;
+    }
+
+    .header__nav_menu > li {
+        display: inline;
+        padding: 50px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .header__nav_menu > li > a {
+        text-decoration: none;
+        color: white;
+        padding: 50px;
+        font-size: 80px;
+    }
+
     .header__menu_icon {
         display: block;
         font-size: 100px;
+    }
+
+    .closebtn {
+        display: block;
+        font-size: 150px;
+        color: #fff;
+        text-align: right;
+        text-decoration: none;
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 
     main {
