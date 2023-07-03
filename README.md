@@ -1,75 +1,56 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Interior Consultant Challenge</h1>
+<h1 align="center">Desafio Interior Consultant</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+   Solucion del desafio de  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://juliangt-2001.github.io/my-team-page-challenge/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
+    <a href="https://juliangt-2001.github.io/my-team-page-challenge/">
+      Solucion
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
-      Challenge
+    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+      Desafio
     </a>
   </h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
 
-## Table of Contents
+## Tabla de contenidos
 
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+- [Previsualizacion](#Previsualizacion)
+  - [Construido con](#Construido-con)
+- [Caracteristicas](#Caracteristicas)
+- [Contactos](#contactos)
 
 <!-- OVERVIEW -->
 
-## Overview
+## Previsualizacion
 
 ![screenshot](https://raw.githubusercontent.com/JulianGT-2001/Interior_Consultant_Challenge/main/FondoIniciar.png)
 
+La experiencia de este reto ha sido satisfactoria, he recordado conceptos basicos de HTML y CSS y Javascript y he aplicado herramientas que no había usado antes como los son los media queries para realizar está pagina responsiva y también he aplicado conceptos de Javascript para lograr la funcionalidad del botón de hamburguesa una vez la página es responsive.
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+### Construido con
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- HTML
+- CSS
+- Javascript
 
-### Built With
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
-
-## Features
+## Caracteristicas
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
+Esta aplicación/sitio se creó como una presentación para un desafío [DevChallenges](https://devchallenges.io). El [desafío](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) era construir una aplicación para completar las historias de usuario dadas.
 
-## Acknowledgements
+## Contactos
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-
-## Contact
-
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@JulianGT-2001](https://github.com/JulianGT-2001)
